@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniMotors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .cars-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .car-card {
+            width: 30%;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            cursor: pointer;
+        }
+        .car-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UniMotors</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="https://wa.me/5544998579656?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20carros%20disponíveis." target="_blank">Contato</a></li>
+
+            
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="cars-container">
+            <div class="car-card" onclick="window.location.href='AMG.html'">
+                <h2>Mercedes-Benz CLA 45 AMG</h2>
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202503/20250318/mercedesbenz-cla-45-amg-2-0-cgi-gasolina-4matic-speedshift-wmimagem22455844229.webp?s=fill&w=552&h=414&q=60" alt="Mercedes-Benz CLA 45 AMG">
+            </div>
+            <div class="car-card" onclick="window.location.href='BMW.html'">
+                <h2>BMW M3 Competition</h2>
+                <img src="https://image.webmotors.com.br/_fotos/anunciousados/gigante/2025/202503/20250317/bmw-m3-3-0-i6-twinturbo-gasolina-competition-m-steptronic-wmimagem20165868915.webp?s=fill&w=552&h=414&q=60" alt="BMW M3 Competition">
+            </div>
+            <div class="car-card" onclick="window.location.href='PORSCHE.html'">
+                <h2>Porsche 911 Turbo</h2>
+                <img src="https://www.webmotors.com.br/rbx/_next/image?url=https%3A%2F%2Fimage.webmotors.com.br%2F_fotos%2Fanunciousados%2Fgigante%2F2025%2F202502%2F20250228%2Fporsche-911-3-8-24v-h6-gasolina-turbo-pdk-wmimagem00552594328.webp&w=256&q=75" alt="Porsche 911 Turbo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
